@@ -1,232 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node1" appversion="6.1.2" apprev="17873">
+<tour apprev="17873" appversion="6.1.2" start="node1">
   <panorama id="node1">
-    <input levelingroll="0" width="1500" levelingpitch="0" height="1500" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
-      <level preload="0" width="1500" height="1500" predecode="0"/>
-      <level preload="0" width="750" height="750" predecode="0"/>
-      <level preload="1" width="375" height="375" predecode="1"/>
+    <input overlap="1" levelingpitch="0" height="1500" levelbiashidpi="1.000" width="1500" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0">
+      <level predecode="0" height="1500" width="1500" preload="0"/>
+      <level predecode="0" height="750" width="750" preload="0"/>
+      <level predecode="1" height="375" width="375" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="65.13" pan="-13.91" tilt="10.13" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" tilt="90"/>
+      <start tilt="10.13" pan="-13.91" projection="4" fov="65.13"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata longitude="" latitude="" nodeid="node1" source="" description="" copyright="" tags="360|iNTERIOR|JuegosInfantiles" info="" customnodeid="" author="" datetime="16/04/2026 05:29 p. m." comment="" title="Juegos infantiles">
-      <mapcoords y_floorplan_percent="77.3333" mapid="FloorPlan01" x_floorplan_percent="35" x="0.480652" y="-1.27441"/>
+    <userdata title="Juegos infantiles" author="" copyright="" comment="" longitude="" info="" latitude="" customnodeid="" datetime="16/04/2026 05:29 p. m." tags="360|iNTERIOR|JuegosInfantiles" nodeid="node1" description="" source="">
+      <mapcoords x="0.480652" mapid="FloorPlan01" y="-1.27441" x_floorplan_percent="35" y_floorplan_percent="77.3333"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label borderalpha="1" enabled="1" width="180" background="1" textalpha="1" wordwrap="1" height="20" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" border="1" textcolor="0x000000" borderradius="1"/>
-      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot id="Area de Fitness" skinid="ht_node" target="" url="{node7}" description="" pan="-82.07" tilt="-1.72" title="Área de Fitness"/>
-      <hotspot id="Cancha de Futbol" skinid="ht_node" target="" url="{node5}" description="" pan="-29.44" tilt="-2.95" title="Cancha de Futbol"/>
-      <hotspot id="Cancha Usos Multiples" skinid="ht_node" target="" url="{node3}" description="" pan="-341.13" tilt="-0.62" title="Cancha Multiusos"/>
-      <hotspot id="Andador Cancha de Usos Multiples" skinid="ht_node" target="" url="{node2}" description="" pan="-317.28" tilt="-2.49" title="Andador C. Multiusos"/>
-      <hotspot id="Andador Cancga de Futbol" skinid="ht_node" target="" url="{node6}" description="" pan="-40" tilt="-1.9" title="Andador C. de Futbol"/>
-      <hotspot id="Andador Entre Canchas" skinid="ht_node" target="" url="{node4}" description="" pan="-4.4" tilt="-2.09" title="Andador Canchas"/>
-      <hotspot id="Area de Fitness" skinid="ht_node" target="" url="{node7}" description="" pan="-18.31" tilt="-1.01" title="Área de Fitness"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label background="1" textalpha="1" backgroundalpha="1" height="20" backgroundcolor="0xffffff" enabled="1" wordwrap="1" border="1" width="180" borderradius="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="-1.72" title="Área de Fitness" pan="-82.07" target="" description="" id="Area de Fitness" skinid="ht_node" url="{node7}"/>
+      <hotspot tilt="-2.95" title="Cancha de Futbol" pan="-29.44" target="" description="" id="Cancha de Futbol" skinid="ht_node" url="{node5}"/>
+      <hotspot tilt="-0.62" title="Cancha Multiusos" pan="-341.13" target="" description="" id="Cancha Usos Multiples" skinid="ht_node" url="{node3}"/>
+      <hotspot tilt="-2.49" title="Andador C. Multiusos" pan="-317.28" target="" description="" id="Andador Cancha de Usos Multiples" skinid="ht_node" url="{node2}"/>
+      <hotspot tilt="-1.9" title="Andador C. de Futbol" pan="-40" target="" description="" id="Andador Cancga de Futbol" skinid="ht_node" url="{node6}"/>
+      <hotspot tilt="-2.09" title="Andador Canchas" pan="-4.4" target="" description="" id="Andador Entre Canchas" skinid="ht_node" url="{node4}"/>
+      <hotspot tilt="-1.01" title="Área de Fitness" pan="-18.31" target="" description="" id="Area de Fitness" skinid="ht_node" url="{node7}"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendcolor="0x000000" zoomoutpause="1" blendtime="1" zoomfov="20" zoomin="0" zoomout="0" softedge="0" zoomspeed="2" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedmouse="0" rubberband="0" sensitivity="8" contextprojections="0" simulatemass="1" speedwheel="1" invertwheel="0" contextfullscreen="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" hideabout="0" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomout="0" enabled="1" zoomspeed="2" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomfov="20" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control rubberband="0" hideabout="0" lockedmouse="0" sensitivity="8" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" speedwheel="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node2">
-    <input levelingroll="0" width="1500" levelingpitch="0" height="1500" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
-      <level preload="0" width="1500" height="1500" predecode="0"/>
-      <level preload="0" width="750" height="750" predecode="0"/>
-      <level preload="1" width="375" height="375" predecode="1"/>
+    <input overlap="1" levelingpitch="0" height="1500" levelbiashidpi="1.000" width="1500" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0">
+      <level predecode="0" height="1500" width="1500" preload="0"/>
+      <level predecode="0" height="750" width="750" preload="0"/>
+      <level predecode="1" height="375" width="375" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="65.13" pan="-93.63" tilt="11.71" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" tilt="90"/>
+      <start tilt="11.71" pan="-93.63" projection="4" fov="65.13"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata longitude="" latitude="" nodeid="node2" source="" description="" copyright="" tags="360|AndadorCanchaUsosMultiples|iNTERIOR" info="" customnodeid="" author="" datetime="16/04/2026 05:29 p. m." comment="" title="Andador C. Multiusos">
-      <mapcoords y_floorplan_percent="39" mapid="FloorPlan01" x_floorplan_percent="21.8" x="0.299377" y="-0.6427"/>
+    <userdata title="Andador C. Multiusos" author="" copyright="" comment="" longitude="" info="" latitude="" customnodeid="" datetime="16/04/2026 05:29 p. m." tags="360|AndadorCanchaUsosMultiples|iNTERIOR" nodeid="node2" description="" source="">
+      <mapcoords x="0.299377" mapid="FloorPlan01" y="-0.6427" x_floorplan_percent="21.8" y_floorplan_percent="39"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label borderalpha="1" enabled="1" width="180" background="1" textalpha="1" wordwrap="1" height="20" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" border="1" textcolor="0x000000" borderradius="1"/>
-      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot id="Juegos Infantiles" skinid="ht_node" target="" url="{node1}" description="" pan="-147.46" tilt="-2.7" title="Juegos infantiles"/>
-      <hotspot id="Cancha Usos Multiples" skinid="ht_node" target="" url="{node3}" description="" pan="-68.45" tilt="-3.83" title="Cancha Multiusos"/>
-      <hotspot id="Andador Entre Canchas" skinid="ht_node" target="" url="{node4}" description="" pan="-91.67" tilt="-2.82" title="Andador Canchas"/>
-      <hotspot id="Cancha de Futbol" skinid="ht_node" target="" url="{node5}" description="" pan="-111.4" tilt="-1.75" title="Cancha de Futbol"/>
-      <hotspot id="Area de Fitness" skinid="ht_node" target="" url="{node7}" description="" pan="-54.35" tilt="-1.71" title="Área de Fitness"/>
-      <hotspot id="Andador Cancga de Futbol" skinid="ht_node" target="" url="{node6}" description="" pan="-98.02" tilt="-1.42" title="Andador C. de Futbol"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label background="1" textalpha="1" backgroundalpha="1" height="20" backgroundcolor="0xffffff" enabled="1" wordwrap="1" border="1" width="180" borderradius="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="-2.7" title="Juegos infantiles" pan="-147.46" target="" description="" id="Juegos Infantiles" skinid="ht_node" url="{node1}"/>
+      <hotspot tilt="-3.83" title="Cancha Multiusos" pan="-68.45" target="" description="" id="Cancha Usos Multiples" skinid="ht_node" url="{node3}"/>
+      <hotspot tilt="-2.82" title="Andador Canchas" pan="-91.67" target="" description="" id="Andador Entre Canchas" skinid="ht_node" url="{node4}"/>
+      <hotspot tilt="-1.75" title="Cancha de Futbol" pan="-111.4" target="" description="" id="Cancha de Futbol" skinid="ht_node" url="{node5}"/>
+      <hotspot tilt="-1.71" title="Área de Fitness" pan="-54.35" target="" description="" id="Area de Fitness" skinid="ht_node" url="{node7}"/>
+      <hotspot tilt="-1.42" title="Andador C. de Futbol" pan="-98.02" target="" description="" id="Andador Cancga de Futbol" skinid="ht_node" url="{node6}"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendcolor="0x000000" zoomoutpause="1" blendtime="1" zoomfov="20" zoomin="0" zoomout="0" softedge="0" zoomspeed="2" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedmouse="0" rubberband="0" sensitivity="8" contextprojections="0" simulatemass="1" speedwheel="1" invertwheel="0" contextfullscreen="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" hideabout="0" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomout="0" enabled="1" zoomspeed="2" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomfov="20" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control rubberband="0" hideabout="0" lockedmouse="0" sensitivity="8" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" speedwheel="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node3">
-    <input levelingroll="0" width="1500" levelingpitch="0" height="1500" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
-      <level preload="0" width="1500" height="1500" predecode="0"/>
-      <level preload="0" width="750" height="750" predecode="0"/>
-      <level preload="1" width="375" height="375" predecode="1"/>
+    <input overlap="1" levelingpitch="0" height="1500" levelbiashidpi="1.000" width="1500" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0">
+      <level predecode="0" height="1500" width="1500" preload="0"/>
+      <level predecode="0" height="750" width="750" preload="0"/>
+      <level predecode="1" height="375" width="375" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="65.13" pan="124.01" tilt="2.02" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" tilt="90"/>
+      <start tilt="2.02" pan="124.01" projection="4" fov="65.13"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata longitude="" latitude="" nodeid="node3" source="" description="" copyright="" tags="360|CanchaUsosMultiples|iNTERIOR" info="" customnodeid="" author="" datetime="16/04/2026 05:29 p. m." comment="" title="Cancha Multiusos">
-      <mapcoords y_floorplan_percent="38" mapid="FloorPlan01" x_floorplan_percent="44.6" x="0.612488" y="-0.626221"/>
+    <userdata title="Cancha Multiusos" author="" copyright="" comment="" longitude="" info="" latitude="" customnodeid="" datetime="16/04/2026 05:29 p. m." tags="360|CanchaUsosMultiples|iNTERIOR" nodeid="node3" description="" source="">
+      <mapcoords x="0.612488" mapid="FloorPlan01" y="-0.626221" x_floorplan_percent="44.6" y_floorplan_percent="38"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label borderalpha="1" enabled="1" width="180" background="1" textalpha="1" wordwrap="1" height="20" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" border="1" textcolor="0x000000" borderradius="1"/>
-      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot id="Andador Entre Canchas" skinid="ht_node" target="" url="{node4}" description="" pan="-139.72" tilt="-9.15" title="Andador Canchas"/>
-      <hotspot id="Cancha de Futbol" skinid="ht_node" target="" url="{node5}" description="" pan="-152.51" tilt="-3.37" title="Cancha de Futbol"/>
-      <hotspot id="Juegos Infantiles" skinid="ht_node" target="" url="{node1}" description="" pan="-165.49" tilt="-1.25" title="Juegos infantiles"/>
-      <hotspot id="Andador Cancha de Usos Multiples" skinid="ht_node" target="" url="{node2}" description="" pan="-253.12" tilt="-3.43" title="Andador C. Multiusos"/>
-      <hotspot id="Andador Cancga de Futbol" skinid="ht_node" target="" url="{node6}" description="" pan="-114.6" tilt="-1.96" title="Andador C. de Futbol"/>
-      <hotspot id="Area de Fitness" skinid="ht_node" target="" url="{node7}" description="" pan="-48.36" tilt="-3.17" title="Área de Fitness"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label background="1" textalpha="1" backgroundalpha="1" height="20" backgroundcolor="0xffffff" enabled="1" wordwrap="1" border="1" width="180" borderradius="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="-9.15" title="Andador Canchas" pan="-139.72" target="" description="" id="Andador Entre Canchas" skinid="ht_node" url="{node4}"/>
+      <hotspot tilt="-3.37" title="Cancha de Futbol" pan="-152.51" target="" description="" id="Cancha de Futbol" skinid="ht_node" url="{node5}"/>
+      <hotspot tilt="-1.25" title="Juegos infantiles" pan="-165.49" target="" description="" id="Juegos Infantiles" skinid="ht_node" url="{node1}"/>
+      <hotspot tilt="-3.43" title="Andador C. Multiusos" pan="-253.12" target="" description="" id="Andador Cancha de Usos Multiples" skinid="ht_node" url="{node2}"/>
+      <hotspot tilt="-1.96" title="Andador C. de Futbol" pan="-114.6" target="" description="" id="Andador Cancga de Futbol" skinid="ht_node" url="{node6}"/>
+      <hotspot tilt="-3.17" title="Área de Fitness" pan="-48.36" target="" description="" id="Area de Fitness" skinid="ht_node" url="{node7}"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendcolor="0x000000" zoomoutpause="1" blendtime="1" zoomfov="20" zoomin="0" zoomout="0" softedge="0" zoomspeed="2" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedmouse="0" rubberband="0" sensitivity="8" contextprojections="0" simulatemass="1" speedwheel="1" invertwheel="0" contextfullscreen="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" hideabout="0" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomout="0" enabled="1" zoomspeed="2" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomfov="20" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control rubberband="0" hideabout="0" lockedmouse="0" sensitivity="8" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" speedwheel="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node4">
-    <input levelingroll="0" width="1500" levelingpitch="0" height="1500" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
-      <level preload="0" width="1500" height="1500" predecode="0"/>
-      <level preload="0" width="750" height="750" predecode="0"/>
-      <level preload="1" width="375" height="375" predecode="1"/>
+    <input overlap="1" levelingpitch="0" height="1500" levelbiashidpi="1.000" width="1500" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0">
+      <level predecode="0" height="1500" width="1500" preload="0"/>
+      <level predecode="0" height="750" width="750" preload="0"/>
+      <level predecode="1" height="375" width="375" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="65.13" pan="-135.92" tilt="6.6" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" tilt="90"/>
+      <start tilt="6.6" pan="-135.92" projection="4" fov="65.13"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata longitude="" latitude="" nodeid="node4" source="" description="" copyright="" tags="360|AndadorEntreCanchas|iNTERIOR" info="" customnodeid="" author="" datetime="16/04/2026 05:29 p. m." comment="" title="Andador Canchas">
-      <mapcoords y_floorplan_percent="48.5" mapid="FloorPlan01" x_floorplan_percent="49" x="0.672913" y="-0.799255"/>
+    <userdata title="Andador Canchas" author="" copyright="" comment="" longitude="" info="" latitude="" customnodeid="" datetime="16/04/2026 05:29 p. m." tags="360|AndadorEntreCanchas|iNTERIOR" nodeid="node4" description="" source="">
+      <mapcoords x="0.672913" mapid="FloorPlan01" y="-0.799255" x_floorplan_percent="49" y_floorplan_percent="48.5"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label borderalpha="1" enabled="1" width="180" background="1" textalpha="1" wordwrap="1" height="20" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" border="1" textcolor="0x000000" borderradius="1"/>
-      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot id="Cancha Usos Multiples" skinid="ht_node" target="" url="{node3}" description="" pan="-316.03" tilt="-7.53" title="Cancha Multiusos"/>
-      <hotspot id="Andador Cancha de Usos Multiples" skinid="ht_node" target="" url="{node2}" description="" pan="-268.53" tilt="-3.36" title="Andador C. Multiusos"/>
-      <hotspot id="Cancha de Futbol" skinid="ht_node" target="" url="{node5}" description="" pan="-169.26" tilt="-4.87" title="Cancha de Futbol"/>
-      <hotspot id="Juegos Infantiles" skinid="ht_node" target="" url="{node1}" description="" pan="-181.87" tilt="-1.18" title="Juegos infantiles"/>
-      <hotspot id="Andador Cancga de Futbol" skinid="ht_node" target="" url="{node6}" description="" pan="-106.55" tilt="-2.87" title="Andador C. de Futbol"/>
-      <hotspot id="Area de Fitness" skinid="ht_node" target="" url="{node7}" description="" pan="-22.07" tilt="-4.1" title="Área de Fitness"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label background="1" textalpha="1" backgroundalpha="1" height="20" backgroundcolor="0xffffff" enabled="1" wordwrap="1" border="1" width="180" borderradius="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="-7.53" title="Cancha Multiusos" pan="-316.03" target="" description="" id="Cancha Usos Multiples" skinid="ht_node" url="{node3}"/>
+      <hotspot tilt="-3.36" title="Andador C. Multiusos" pan="-268.53" target="" description="" id="Andador Cancha de Usos Multiples" skinid="ht_node" url="{node2}"/>
+      <hotspot tilt="-4.87" title="Cancha de Futbol" pan="-169.26" target="" description="" id="Cancha de Futbol" skinid="ht_node" url="{node5}"/>
+      <hotspot tilt="-1.18" title="Juegos infantiles" pan="-181.87" target="" description="" id="Juegos Infantiles" skinid="ht_node" url="{node1}"/>
+      <hotspot tilt="-2.87" title="Andador C. de Futbol" pan="-106.55" target="" description="" id="Andador Cancga de Futbol" skinid="ht_node" url="{node6}"/>
+      <hotspot tilt="-4.1" title="Área de Fitness" pan="-22.07" target="" description="" id="Area de Fitness" skinid="ht_node" url="{node7}"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendcolor="0x000000" zoomoutpause="1" blendtime="1" zoomfov="20" zoomin="0" zoomout="0" softedge="0" zoomspeed="2" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedmouse="0" rubberband="0" sensitivity="8" contextprojections="0" simulatemass="1" speedwheel="1" invertwheel="0" contextfullscreen="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" hideabout="0" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomout="0" enabled="1" zoomspeed="2" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomfov="20" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control rubberband="0" hideabout="0" lockedmouse="0" sensitivity="8" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" speedwheel="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node5">
-    <input levelingroll="0" width="1500" levelingpitch="0" height="1500" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
-      <level preload="0" width="1500" height="1500" predecode="0"/>
-      <level preload="0" width="750" height="750" predecode="0"/>
-      <level preload="1" width="375" height="375" predecode="1"/>
+    <input overlap="1" levelingpitch="0" height="1500" levelbiashidpi="1.000" width="1500" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0">
+      <level predecode="0" height="1500" width="1500" preload="0"/>
+      <level predecode="0" height="750" width="750" preload="0"/>
+      <level predecode="1" height="375" width="375" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="65.13" pan="-29.26" tilt="8.1" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" tilt="90"/>
+      <start tilt="8.1" pan="-29.26" projection="4" fov="65.13"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata longitude="" latitude="" nodeid="node5" source="" description="" copyright="" tags="360|iNTERIOR|CanchadeFutbol" info="" customnodeid="" author="" datetime="16/04/2026 05:29 p. m." comment="" title="Cancha de Futbol">
-      <mapcoords y_floorplan_percent="61.5" mapid="FloorPlan01" x_floorplan_percent="46.6" x="0.639954" y="-1.01349"/>
+    <userdata title="Cancha de Futbol" author="" copyright="" comment="" longitude="" info="" latitude="" customnodeid="" datetime="16/04/2026 05:29 p. m." tags="360|iNTERIOR|CanchadeFutbol" nodeid="node5" description="" source="">
+      <mapcoords x="0.639954" mapid="FloorPlan01" y="-1.01349" x_floorplan_percent="46.6" y_floorplan_percent="61.5"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label borderalpha="1" enabled="1" width="180" background="1" textalpha="1" wordwrap="1" height="20" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" border="1" textcolor="0x000000" borderradius="1"/>
-      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot id="Andador Cancga de Futbol" skinid="ht_node" target="" url="{node6}" description="" pan="-61.76" tilt="-4.29" title="Andador C. de Futbol"/>
-      <hotspot id="Area de Fitness" skinid="ht_node" target="" url="{node7}" description="" pan="-6.11" tilt="-1.73" title="Área de Fitness"/>
-      <hotspot id="Andador Entre Canchas" skinid="ht_node" target="" url="{node4}" description="" pan="-345.34" tilt="-5.29" title="Andador Canchas"/>
-      <hotspot id="Cancha Usos Multiples" skinid="ht_node" target="" url="{node3}" description="" pan="-334.16" tilt="-2.97" title="Cancha Multiusos"/>
-      <hotspot id="Andador Cancha de Usos Multiples" skinid="ht_node" target="" url="{node2}" description="" pan="-297.58" tilt="-2.16" title="Andador C. Multiusos"/>
-      <hotspot id="Juegos Infantiles" skinid="ht_node" target="" url="{node1}" description="" pan="-182.85" tilt="-3.62" title="Juegos infantiles"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label background="1" textalpha="1" backgroundalpha="1" height="20" backgroundcolor="0xffffff" enabled="1" wordwrap="1" border="1" width="180" borderradius="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="-4.29" title="Andador C. de Futbol" pan="-61.76" target="" description="" id="Andador Cancga de Futbol" skinid="ht_node" url="{node6}"/>
+      <hotspot tilt="-1.73" title="Área de Fitness" pan="-6.11" target="" description="" id="Area de Fitness" skinid="ht_node" url="{node7}"/>
+      <hotspot tilt="-5.29" title="Andador Canchas" pan="-345.34" target="" description="" id="Andador Entre Canchas" skinid="ht_node" url="{node4}"/>
+      <hotspot tilt="-2.97" title="Cancha Multiusos" pan="-334.16" target="" description="" id="Cancha Usos Multiples" skinid="ht_node" url="{node3}"/>
+      <hotspot tilt="-2.16" title="Andador C. Multiusos" pan="-297.58" target="" description="" id="Andador Cancha de Usos Multiples" skinid="ht_node" url="{node2}"/>
+      <hotspot tilt="-3.62" title="Juegos infantiles" pan="-182.85" target="" description="" id="Juegos Infantiles" skinid="ht_node" url="{node1}"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendcolor="0x000000" zoomoutpause="1" blendtime="1" zoomfov="20" zoomin="0" zoomout="0" softedge="0" zoomspeed="2" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedmouse="0" rubberband="0" sensitivity="8" contextprojections="0" simulatemass="1" speedwheel="1" invertwheel="0" contextfullscreen="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" hideabout="0" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomout="0" enabled="1" zoomspeed="2" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomfov="20" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control rubberband="0" hideabout="0" lockedmouse="0" sensitivity="8" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" speedwheel="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node6">
-    <input levelingroll="0" width="1500" levelingpitch="0" height="1500" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
-      <level preload="0" width="1500" height="1500" predecode="0"/>
-      <level preload="0" width="750" height="750" predecode="0"/>
-      <level preload="1" width="375" height="375" predecode="1"/>
+    <input overlap="1" levelingpitch="0" height="1500" levelbiashidpi="1.000" width="1500" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0">
+      <level predecode="0" height="1500" width="1500" preload="0"/>
+      <level predecode="0" height="750" width="750" preload="0"/>
+      <level predecode="1" height="375" width="375" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="65.13" pan="87.83" tilt="7.96" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" tilt="90"/>
+      <start tilt="7.96" pan="87.83" projection="4" fov="65.13"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata longitude="" latitude="" nodeid="node6" source="" description="" copyright="" tags="360|AndadorCanchadeFutbol|iNTERIOR" info="" customnodeid="" author="" datetime="16/04/2026 05:29 p. m." comment="" title="Andador C. de Futbol">
-      <mapcoords y_floorplan_percent="60.3333" mapid="FloorPlan01" x_floorplan_percent="69.6" x="0.955811" y="-0.994263"/>
+    <userdata title="Andador C. de Futbol" author="" copyright="" comment="" longitude="" info="" latitude="" customnodeid="" datetime="16/04/2026 05:29 p. m." tags="360|AndadorCanchadeFutbol|iNTERIOR" nodeid="node6" description="" source="">
+      <mapcoords x="0.955811" mapid="FloorPlan01" y="-0.994263" x_floorplan_percent="69.6" y_floorplan_percent="60.3333"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label borderalpha="1" enabled="1" width="180" background="1" textalpha="1" wordwrap="1" height="20" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" border="1" textcolor="0x000000" borderradius="1"/>
-      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot id="Area de Fitness" skinid="ht_node" target="" url="{node7}" description="" pan="-327.33" tilt="-2.22" title="Área de Fitness"/>
-      <hotspot id="Cancha de Futbol" skinid="ht_node" target="" url="{node5}" description="" pan="-243.75" tilt="-4.01" title="Cancha de Futbol"/>
-      <hotspot id="Andador Entre Canchas" skinid="ht_node" target="" url="{node5}" description="" pan="-285.1" tilt="-3.04" title="Cancha de Futbol"/>
-      <hotspot id="Cancha Usos Multiples" skinid="ht_node" target="" url="{node3}" description="" pan="-295.25" tilt="-1.26" title="Cancha Multiusos"/>
-      <hotspot id="Juegos Infantiles" skinid="ht_node" target="" url="{node1}" description="" pan="-209.82" tilt="-1.11" title="Juegos infantiles"/>
-      <hotspot id="Andador Cancha de Usos Multiples" skinid="ht_node" target="" url="{node2}" description="" pan="-276.78" tilt="-0.59" title="Andador C. Multiusos"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label background="1" textalpha="1" backgroundalpha="1" height="20" backgroundcolor="0xffffff" enabled="1" wordwrap="1" border="1" width="180" borderradius="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="-2.22" title="Área de Fitness" pan="-327.33" target="" description="" id="Area de Fitness" skinid="ht_node" url="{node7}"/>
+      <hotspot tilt="-4.01" title="Cancha de Futbol" pan="-243.75" target="" description="" id="Cancha de Futbol" skinid="ht_node" url="{node5}"/>
+      <hotspot tilt="-3.04" title="Cancha de Futbol" pan="-285.1" target="" description="" id="Andador Entre Canchas" skinid="ht_node" url="{node5}"/>
+      <hotspot tilt="-1.26" title="Cancha Multiusos" pan="-295.25" target="" description="" id="Cancha Usos Multiples" skinid="ht_node" url="{node3}"/>
+      <hotspot tilt="-1.11" title="Juegos infantiles" pan="-209.82" target="" description="" id="Juegos Infantiles" skinid="ht_node" url="{node1}"/>
+      <hotspot tilt="-0.59" title="Andador C. Multiusos" pan="-276.78" target="" description="" id="Andador Cancha de Usos Multiples" skinid="ht_node" url="{node2}"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendcolor="0x000000" zoomoutpause="1" blendtime="1" zoomfov="20" zoomin="0" zoomout="0" softedge="0" zoomspeed="2" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedmouse="0" rubberband="0" sensitivity="8" contextprojections="0" simulatemass="1" speedwheel="1" invertwheel="0" contextfullscreen="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" hideabout="0" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomout="0" enabled="1" zoomspeed="2" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomfov="20" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control rubberband="0" hideabout="0" lockedmouse="0" sensitivity="8" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" speedwheel="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node7">
-    <input levelingroll="0" width="1500" levelingpitch="0" height="1500" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
-      <level preload="0" width="1500" height="1500" predecode="0"/>
-      <level preload="0" width="750" height="750" predecode="0"/>
-      <level preload="1" width="375" height="375" predecode="1"/>
+    <input overlap="1" levelingpitch="0" height="1500" levelbiashidpi="1.000" width="1500" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0">
+      <level predecode="0" height="1500" width="1500" preload="0"/>
+      <level predecode="0" height="750" width="750" preload="0"/>
+      <level predecode="1" height="375" width="375" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="71.52" pan="-47.87" tilt="14.3" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fov="120" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" tilt="90"/>
+      <start tilt="14.3" pan="-47.87" projection="4" fov="71.52"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata longitude="" latitude="" nodeid="node7" source="" description="" copyright="" tags="360|iNTERIOR|AreadeFitness" info="" customnodeid="" author="" datetime="16/04/2026 05:29 p. m." comment="" title="Área de Fitness">
-      <mapcoords y_floorplan_percent="35.1667" mapid="FloorPlan01" x_floorplan_percent="60.8" x="0.834961" y="-0.579529"/>
+    <userdata title="Área de Fitness" author="" copyright="" comment="" longitude="" info="" latitude="" customnodeid="" datetime="16/04/2026 05:29 p. m." tags="360|iNTERIOR|AreadeFitness" nodeid="node7" description="" source="">
+      <mapcoords x="0.834961" mapid="FloorPlan01" y="-0.579529" x_floorplan_percent="60.8" y_floorplan_percent="35.1667"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label borderalpha="1" enabled="1" width="180" background="1" textalpha="1" wordwrap="1" height="20" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" border="1" textcolor="0x000000" borderradius="1"/>
-      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot id="Andador Entre Canchas" skinid="ht_node" target="" url="{node5}" description="" pan="-202.93" tilt="-4.88" title="Cancha de Futbol"/>
-      <hotspot id="Cancha de Futbol" skinid="ht_node" target="" url="{node5}" description="" pan="-187.33" tilt="-2.8" title="Cancha de Futbol"/>
-      <hotspot id="Cancha Usos Multiples" skinid="ht_node" target="" url="{node3}" description="" pan="-250.87" tilt="-5.5" title="Cancha Multiusos"/>
-      <hotspot id="Andador Cancha de Usos Multiples" skinid="ht_node" target="" url="{node2}" description="" pan="-239.08" tilt="-1.11" title="Andador C. Multiusos"/>
-      <hotspot id="Andador Cancga de Futbol" skinid="ht_node" target="" url="{node6}" description="" pan="-139.59" tilt="-2.51" title="Andador C. de Futbol"/>
-      <hotspot id="Juegos Infantiles" skinid="ht_node" target="" url="{node1}" description="" pan="-179.4" tilt="-0.68" title="Juegos infantiles"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label background="1" textalpha="1" backgroundalpha="1" height="20" backgroundcolor="0xffffff" enabled="1" wordwrap="1" border="1" width="180" borderradius="1" textcolor="0x000000" borderalpha="1" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="-4.88" title="Cancha de Futbol" pan="-202.93" target="" description="" id="Andador Entre Canchas" skinid="ht_node" url="{node5}"/>
+      <hotspot tilt="-2.8" title="Cancha de Futbol" pan="-187.33" target="" description="" id="Cancha de Futbol" skinid="ht_node" url="{node5}"/>
+      <hotspot tilt="-5.5" title="Cancha Multiusos" pan="-250.87" target="" description="" id="Cancha Usos Multiples" skinid="ht_node" url="{node3}"/>
+      <hotspot tilt="-1.11" title="Andador C. Multiusos" pan="-239.08" target="" description="" id="Andador Cancha de Usos Multiples" skinid="ht_node" url="{node2}"/>
+      <hotspot tilt="-2.51" title="Andador C. de Futbol" pan="-139.59" target="" description="" id="Andador Cancga de Futbol" skinid="ht_node" url="{node6}"/>
+      <hotspot tilt="-0.68" title="Juegos infantiles" pan="-179.4" target="" description="" id="Juegos Infantiles" skinid="ht_node" url="{node1}"/>
     </hotspots>
     <media/>
-    <transition enabled="1" blendcolor="0x000000" zoomoutpause="1" blendtime="1" zoomfov="20" zoomin="0" zoomout="0" softedge="0" zoomspeed="2" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedmouse="0" rubberband="0" sensitivity="8" contextprojections="0" simulatemass="1" speedwheel="1" invertwheel="0" contextfullscreen="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" hideabout="0" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomout="0" enabled="1" zoomspeed="2" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomfov="20" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control rubberband="0" hideabout="0" lockedmouse="0" sensitivity="8" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" speedwheel="1" invertcontrol="1"/>
   </panorama>
   <masternode>
-    <userdata longitude="" latitude="" nodeid="master" source="" description="" copyright="" tags="" info="" customnodeid="" author="" datetime="" comment="" title=""/>
+    <userdata title="" author="" copyright="" comment="" longitude="" info="" latitude="" customnodeid="" datetime="" tags="" nodeid="master" description="" source=""/>
   </masternode>
-  <map width="500" id="FloorPlan01" zoomlevels="3" bgcolor="rgba(255, 255, 255, 0)" height="600" transparent="1" floorplannorth="0" title="" type="file" tileformat="jpg"/>
+  <map title="" height="600" zoomlevels="3" transparent="1" width="500" floorplannorth="0" tileformat="jpg" type="file" bgcolor="rgba(255, 255, 255, 0)" id="FloorPlan01"/>
 </tour>
